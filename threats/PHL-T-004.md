@@ -33,6 +33,6 @@ Property breaches via sub-GHz replay are under-investigated because the physical
 
 ## Defensive layers
 
-- Detection: `PHL-D-004` — out-of-pattern activation events correlated with no tenant credential.
+- Detection: `PHL-D-004` - out-of-pattern activation events correlated with no tenant credential.
 - Prevent: replace fixed-code receivers with rolling-code (KeeLoq with secure session keys, AES-128 systems like Faac SLH or Came Hormann ProxiMity).
 - Respond: incident playbook treats sub-GHz replay as physical intrusion; rotate codes if hardware supports it.

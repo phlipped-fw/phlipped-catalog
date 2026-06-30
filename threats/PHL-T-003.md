@@ -34,6 +34,6 @@ MIFARE Classic remains widely deployed in transit systems, gym chains, hotel loc
 
 ## Defensive layers
 
-- Detection: `PHL-D-003` — UID anomaly detection on the PACS (same UID seen in geographically incompatible readers within a window).
+- Detection: `PHL-D-003` - UID anomaly detection on the PACS (same UID seen in geographically incompatible readers within a window).
 - Prevent: migrate to DESFire EV3 with AES mutual authentication and diversified keys.
 - Respond: revocation procedure for any UID flagged as anomalous; physical inspection of last user.
